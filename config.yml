@@ -11,4 +11,4 @@ jobs:
       - image: cimg/node:20.3.1
     steps:
       - checkout
-      - run: node --version
+      - run: npm install
